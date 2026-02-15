@@ -27,15 +27,15 @@ const Preloader = ({ onFinish }: PreloaderProps) => {
         <div className="absolute inset-0 h-16 w-16 rounded-full border-4 border-transparent border-t-primary animate-spin-slow" />
       </div>
 
-      {/* Title */}
+      {/* H1 - SEO keyword principal */}
       <h1 className="font-display text-2xl font-bold animate-shimmer mb-4">
-        Plataforma Pagante
+        Plataforma de Slots Pagantes - Jogue Agora!
       </h1>
 
-      {/* Message */}
-      <p className="text-muted-foreground text-sm animate-pulse-gold text-center px-8">
-        Carregando plataforma pagante — Boa sorte em suas apostas!
-      </p>
+      {/* H2 - SEO keyword secundária */}
+      <h2 className="text-muted-foreground text-sm animate-pulse-gold text-center px-8">
+        Melhores Caça-Níqueis Online no Brasil — Boa sorte em suas apostas!
+      </h2>
 
       {/* Decorative dots */}
       <div className="flex gap-2 mt-6">
